@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function changeTheme(theme) {
-        tanChiShe.src = "./static/svg/snake-" + theme + ".svg";
+        tanChiShe.src = "https://raw.githubusercontent.com/TroyMitchell911/Troymitchell911/refs/heads/output/github-contribution-grid-snake-" + theme + ".svg";
         html.dataset.theme = theme;
         setCookie("themeState", theme, 365);
         themeState = theme;
